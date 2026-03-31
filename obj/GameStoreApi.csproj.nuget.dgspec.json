@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lilyt\\Desktop\\GameStoreApi\\GameStoreApi.csproj": {}
+    "C:\\Users\\lilyt\\Desktop\\js\\GameStoreApi\\GameStoreApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lilyt\\Desktop\\GameStoreApi\\GameStoreApi.csproj": {
+    "C:\\Users\\lilyt\\Desktop\\js\\GameStoreApi\\GameStoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lilyt\\Desktop\\GameStoreApi\\GameStoreApi.csproj",
+        "projectUniqueName": "C:\\Users\\lilyt\\Desktop\\js\\GameStoreApi\\GameStoreApi.csproj",
         "projectName": "GameStoreApi",
-        "projectPath": "C:\\Users\\lilyt\\Desktop\\GameStoreApi\\GameStoreApi.csproj",
+        "projectPath": "C:\\Users\\lilyt\\Desktop\\js\\GameStoreApi\\GameStoreApi.csproj",
         "packagesPath": "C:\\Users\\lilyt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lilyt\\Desktop\\GameStoreApi\\obj\\",
+        "outputPath": "C:\\Users\\lilyt\\Desktop\\js\\GameStoreApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lilyt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\lilyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cheilca-185279236646.d.codeartifact.us-east-1.amazonaws.com/nuget/csharp-encryption-nuget/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -32,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net7.0": {
@@ -58,6 +71,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -66,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
